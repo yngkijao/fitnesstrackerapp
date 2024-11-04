@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.carousel img {
+  filter: brightness(70%);
+}
+
+.carousel-caption h3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+.carousel-caption p {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+.carousel-item img {
+  width: 300px;
+  height: 340px;
+  object-fit: cover;
+  object-position: center;
+}
+body {
+  background: linear-gradient(to right, #b3e0ff, #ffd1dc);
+  min-height: 100vh;
+}
+.card-equal-height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-equal-height .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-equal-height .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-equal-height {
+  transition: transform 0.2s;
+}
+
+.card-equal-height:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.pastel-navbar {
+  background: linear-gradient(to right, #b3e0ff, #ffd1dc) !important; /* Gradient background */
+  color: #333 !important; /* Darker text color for contrast */
+}
+
+.pastel-navbar .navbar-brand {
+  color: #000 !important; /* Adjust brand color */
+  font-size: 1.5rem !important; /* Larger font size */
+  font-weight: bold !important; /* Make it bold */
+}
+
+.pastel-navbar .navbar-nav .nav-link {
+  color: #333 !important; /* Adjust link color */
+  font-weight: bold !important; /* Make links bold */
+}
+
+.pastel-navbar .navbar-nav {
+  margin: 0 auto; /* Center the navigation */
+  text-align: center; /* Center the text */
+}
+
+.pastel-navbar .navbar-nav .nav-link:hover {
+  color: #555 !important; /* Adjust link color on hover */
+}
+
